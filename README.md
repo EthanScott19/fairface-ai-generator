@@ -29,6 +29,12 @@ Now in another directory outside of "dataset" clone our repository with
 ```bash
 git clone https://github.com/EthanScott19/fairface-ai-generator.git
 ```
+
+Navigate to project directory and run:
+```bash
+pip install -r requirements.txt
+```
+
 ### Training
 Once you have cloned our repository cd back to the root directory and run the following commands
 ```bash
