@@ -111,4 +111,4 @@ Once you have all these CSV files, from the project root run:
 ```bash
 python -m src.analysis.plot_skin_tone_comparison
 ```
-This will plot the results in a double bar chart, showing the skin tone distribution between your training set and your actual generated faces. You can modify this value to include gender as well.
+This will plot the results in a double bar chart, showing the skin tone distribution between your training set and your actual generated faces. You can modify this file to include gender as well.
