@@ -67,7 +67,7 @@ Check generated/dcgan_gan_subset to ensure success. Congratulations, you have su
 
 First, from the project root navigate to the directory labeled "external" and clone the author's repository there. There is a readme file with instructions how to do that located in external. Once you have cloned the authors repository inside external, navigate to their project root and make a directory called "metadata". Within this directory, place the obtained "train_data.csv" and "test_data.csv" files. 
 
-Next navigate to fairface-ai-generator/src/data and modify the "make_gan_csv.py" file so that the columns on the right match the folder names in your dataset and the columns in the right match keywords in the csv files that we just placed in the metadata directory. Then from the project root, run:
+Next navigate to fairface-ai-generator/src/data and modify the "make_gan_csv.py" file so that the columns on the right match the folder names in your dataset and the columns in the left match keywords in the csv files that we just placed in the metadata directory. Then from the project root, run:
 ```bash
 python -m src.data.make_gan_csv
 ```
